@@ -33,10 +33,10 @@ jobs:
           key: Library
  
       # Test
-      - name: Run tests
-        uses: webbertakken/unity-test-runner@v1.3
-        with:
-          unityVersion: 2019.3.9f1
+      #- name: Run tests
+      #  uses: webbertakken/unity-test-runner@v1.3
+      #  with:
+      #    unityVersion: 2019.3.9f1
  
       # Build
       - name: Build project
